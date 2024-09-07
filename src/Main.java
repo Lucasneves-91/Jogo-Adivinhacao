@@ -31,10 +31,6 @@ public class Main {
             tentativa ++;
             chute = leitura.nextInt();
 
-// utilizar o switch case para utilizar uma msg de suas tentativas acabaram e nao ficar repetitivo.
-
-
-
             if (chute == numeroAleatorio) {
                 System.out.println("Parabéns você acertou!");
                 System.out.println("O número aleatório é " + numeroAleatorio + "!");
@@ -50,11 +46,8 @@ public class Main {
                 System.out.println("O número que você chutou é menor!");
                 System.out.println("Você ainda possui " + (chances - tentativa) + " tentativas!");
             }
-
-
-        }
-
         }
     }
+}
 
 
