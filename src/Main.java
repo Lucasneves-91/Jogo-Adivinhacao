@@ -16,15 +16,14 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
+
+    static int numeroAleatorio = new Random().nextInt(100);
+    static int tentativa = 0;
+    static int chances = 5;
+    static int chute = 0;
+    static Scanner leitura = new Scanner(System.in);
+
     public static void main(String[] args) {
-
-        int numeroAleatorio = new Random().nextInt(100);
-        int tentativa = 0;
-        int chances = 5;
-        int chute = 0;
-        Scanner leitura = new Scanner(System.in);
-
-
 
         while (tentativa <=4) {
             System.out.println("Adivinhe um número de 0 a 100.");
